@@ -1,0 +1,396 @@
+
+.search-header {
+position: absolute;
+display: flex;
+width: 250px;
+height: 1000px;
+left: 0px;
+top: 0px;
+
+
+background: #FFFFFF;
+}
+
+.search-header-album {
+position: absolute;
+display: flex;
+width: 250px;
+height: 200vh;
+left: 0px;
+top: 0px;
+
+
+background: #FFFFFF;
+
+}
+
+.header-profile-img {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: -80px;
+  top: -30px;
+
+  
+  
+  /* background: url(Sem-Título-1.jpg); */
+  background-color: gray;
+  filter: drop-shadow(-9px 8px 8px rgba(0, 0, 0, 0.2));
+  border-radius: 240px;
+  z-index: 3;
+}
+.user-name {
+  position: absolute;
+width: 83px;
+height: 16px;
+left: 93px;
+top: 864px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+
+color: #444955;
+
+}
+.header-logo {
+  position: absolute;
+width: 170.81px;
+height: 95.71px;
+left: 40px;
+top: 33.59px;
+}
+
+
+
+.search-link-active {
+  position: absolute;
+width: 77px;
+height: 16px;
+left: 84px;
+top: 277px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+text-decoration: underline;
+
+color: #444955;
+}
+
+.search-link {
+  position: absolute;
+width: 77px;
+height: 16px;
+left: 84px;
+top: 277px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+text-decoration: none;
+
+color: 
+#89898a
+
+}
+
+.search-svg {
+ position: absolute;
+  left: -60%;
+  right: 95.22%;
+  top: -18%;
+  bottom: 59.29%;
+ 
+
+  }
+
+  .favorites-link {
+    position: absolute;
+    width: 77px;
+    height: 16px;
+    left: 84px;
+    top: 330px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    
+   
+    text-decoration: none;
+    
+    color: 
+    #89898a
+  }
+  
+  .favorites-link-active {
+    position: absolute;
+    width: 77px;
+    height: 16px;
+    left: 84px;
+    top: 330px;
+    
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    
+   
+    text-decoration: underline;
+    
+    color: #444955;
+  }
+
+  .star-svg {
+    position: absolute;
+    left: -60%;
+    right: 95.22%;
+    top: -30%;
+    bottom: 59.29%;
+  }
+
+.profile-link {
+  position: absolute;
+width: 42px;
+height: 16px;
+left: 84px;
+top: 380px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+text-decoration: none;
+
+color: 
+#89898a
+}
+
+.profile-link-active {
+  position: absolute;
+width: 42px;
+height: 16px;
+left: 84px;
+top: 380px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: capitalize;
+text-decoration: underline;
+
+color: #444955;
+}
+
+.profile-svg {
+  position: absolute;
+  left: -110%;
+  right: 95.22%;
+  top: -30%;
+  bottom: 59.29%;
+}
+
+.search-options-container {
+
+  position: absolute;
+  left: 250px;
+  top: 0%;
+  width:86.35%;
+  height: 300px;
+  /* border-bottom: 1px solid gray; */
+  background-image: url('searchHeader.svg');
+  background-size: cover;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius: 5px;
+    
+}
+
+.search-options {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  
+}
+
+.search-btn {
+ 
+  width: 114px;
+  height: 40px;
+
+  background: #00D5E2;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+}
+.search-btn:hover {
+ 
+
+  background: #979f9fb7;
+  border:1px solid #444955;
+
+  cursor: pointer;
+}
+
+.search-btn-text {
+  
+  width: 78px;
+  height: 14px;
+
+  
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+}
+
+.search-input {
+
+width: 400px;
+height: 40px;
+
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 23px;
+border: none;
+}
+
+.search-input::placeholder {
+ position: relative;
+width: 500px;
+height: 14px;
+left: 23%;
+
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.input-search-icon {
+  position: absolute;
+  left: 56%;
+  top: 25%;
+  
+}
+
+.result-text {
+  position: absolute;
+  
+width: 337.2px;
+height: 24.89px;
+left: 840px;
+top: 297px;
+
+font-family: 'Epilogue';
+font-style: italic;
+font-weight: 300;
+font-size: 23px;
+line-height: 20px;
+text-align: center;
+border-radius: 10px;
+
+
+
+color: #0e42e0e2;
+/* box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px; */
+
+
+}
+
+.main-container {
+position: absolute; 
+
+ 
+ width: 86.2%;
+ height: 85%;
+  left:250px ;
+  top: 35%;
+  }
+
+  .album-container {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  .album-img {
+    
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+ 
+  }
+
+  .album-img:hover {
+   
+  width: 150px;
+  height: 150px;
+  
+  }
+
+  .album-item-container {
+ 
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+  }
+
+  .legend {
+    
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 150%;
+text-align: center;
+/* or 18px */
+
+
+/* gray 700 */
+
+color: #3D495C;
+  }

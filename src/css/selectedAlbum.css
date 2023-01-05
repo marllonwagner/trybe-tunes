@@ -1,0 +1,96 @@
+
+audio::-webkit-media-controls-panel {
+  background-color: aqua;
+}
+
+.main-audio-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  
+  width: 700px;
+  height: 1000px;
+}
+
+.audio-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-bottom: 0.847727px solid #ced1d6;
+  
+}
+.trackName {
+  width: 180px;
+  font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 14px;
+color: #001813;
+}
+.container {
+  position: absolute;
+  top: 350px;
+ 
+  /* left: 900px; */
+}
+
+.albumImg {
+
+  position:absolute;
+  /* display: flex; */
+  border-radius: 10px;
+  width: 240px;
+  height: 240px;
+  filter: drop-shadow(-9px 8px 8px rgba(68, 73, 85, 0.2));
+  border-radius: 12px;
+  /* left: calc(50% - 240px/2 - 193px);
+  top: calc(50% - 240px/2 - 129px); */
+  left: 350px;
+  top:  150px;
+ 
+}
+
+.artist-name {
+  position: absolute;
+width: 218.4px;
+height: 21px;
+left: 390px;
+top: 230px;
+
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+
+color: #FFFFFF;
+
+}
+
+.collection-name {
+  position: absolute;
+  width: 500px;
+  height: 30px;
+  left: 390px;
+  top: 180px;
+
+  
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  
+  
+  color: #FFFFFF;
+}
+

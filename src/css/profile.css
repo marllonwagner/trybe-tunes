@@ -1,0 +1,108 @@
+.profile-main-container {
+  position: absolute;
+  /* border: 1px solid black; */
+  width: 600px;
+  height: 600px;
+  top: 350px;
+  left: 800px;
+
+}
+
+.profile-container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  /* border: 1px solid red; */
+  width: 250px;
+  height: 600px;
+}
+
+.profile-name-container {
+  display: flex;
+  height: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+}
+
+.profile-email-container {
+  display: flex;
+  height: 50px;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+}
+
+.profile-description-container {
+  display: flex;
+  height: 250px;
+  width: 600px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* border: 1px solid green; */
+}
+.profile-btn {
+  
+  width: 152px;
+  height: 40px;
+  background: #003BE5;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.profile-btn-text {
+
+width: 100px;
+height: 14px;
+left: 628px;
+top: 578px;
+
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.profile-legend {
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+
+color: #3D495C;
+
+}
+.profile-infos {
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+
+color: #3D495C;
+}
+
+.profile-img {
+  position: absolute;
+width: 270px;
+height: 270px;
+left: 326px;
+top: 251px;
+text-align: center;
+
+
+/* background: url(Sem-Título-1.jpg); */
+background-color: gray;
+filter: drop-shadow(-9px 8px 8px rgba(0, 0, 0, 0.2));
+border-radius: 240px;
+z-index: 3;
+}
+
